@@ -8,7 +8,7 @@ function App() {
   const [error, setError] = useState(null);
 
   const MODEL_ID = "my-first-project-uvzhp";
-  const MODEL_VERSION = "3";
+  const MODEL_VERSION = "5";
   const API_KEY = "9BXYcZZaIzJnYrkTjgCR";
   const URL = `https://detect.roboflow.com/${MODEL_ID}/${MODEL_VERSION}?api_key=${API_KEY}`;
 
