@@ -286,7 +286,7 @@ function App() {
           ) : (
             <div className="empty-state">
               <Package className="empty-icon" />
-              <h2 className="empty-title">No Data Available</h2>
+              <h2 className="empty-title">No Data Available!</h2>
               <p className="empty-text">Upload and analyze an image to see statistics</p>
             </div>
           )}
